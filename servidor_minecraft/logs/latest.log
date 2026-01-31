@@ -1,0 +1,101 @@
+[19:38:14] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[19:38:15] [main/INFO]: Loading 60 mods:
+	- fabric-api 0.141.2+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.14+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.2+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.2+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.9+7edacff13e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.11
+	- polymer-bundled 0.15.1+1.21.11
+	   |-- polymer-autohost 0.15.1+1.21.11
+	   |-- polymer-blocks 0.15.1+1.21.11
+	   |-- polymer-common 0.15.1+1.21.11
+	   |    \-- packet_tweaker 0.6.0+1.21.10
+	   |-- polymer-core 0.15.1+1.21.11
+	   |    |-- polymer-networking 0.15.1+1.21.11
+	   |    |    \-- polymer-common 0.15.1+1.21.11
+	   |    |         \-- packet_tweaker 0.6.0+1.21.10
+	   |    \-- polymer-registry-sync-manipulator 0.15.1+1.21.11
+	   |-- polymer-resource-pack 0.15.1+1.21.11
+	   |    \-- polymer-common 0.15.1+1.21.11
+	   |         \-- packet_tweaker 0.6.0+1.21.10
+	   |-- polymer-resource-pack-extras 0.15.1+1.21.11
+	   |-- polymer-sound-patcher 0.15.1+1.21.11
+	   \-- polymer-virtual-entity 0.15.1+1.21.11
+	        \-- polymer-common 0.15.1+1.21.11
+	             \-- packet_tweaker 0.6.0+1.21.10
+	- universal-graves 3.10.2+1.21.11
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.6.0-patbox
+	   |-- placeholder-api 2.8.1+1.21.10
+	   |-- predicate-api 0.7.0+1.21.11
+	   |-- server_translations_api 2.5.2+1.21.9-pre3
+	   \-- sgui 1.11.0+1.21.9
+[19:38:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/La-Realeza/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:38:15] [main/INFO]: Compatibility level set to JAVA_21
+[19:38:16] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[19:38:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:38:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:38:34] [main/INFO]: Loaded 1471 recipes
+[19:38:34] [main/INFO]: Loaded 1584 advancements
+[19:38:34] [Thread-2/INFO]: Loaded 58 translation keys
+[19:38:34] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.693 ms
+[19:38:34] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[19:38:34] [Server thread/INFO]: Loading properties
+[19:38:34] [Server thread/INFO]: Default game type: SURVIVAL
+[19:38:34] [Server thread/INFO]: Generating keypair
+[19:38:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:38:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:38:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:38:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:38:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:38:35] [Server thread/INFO]: Preparing level "world"
+[19:38:35] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:38:35] [Server thread/INFO]: Preparing spawn area: 100%
+[19:38:35] [Server thread/INFO]: Time elapsed: 16 ms
+[19:38:35] [Server thread/INFO]: Done (0.762s)! For help, type "help"
+[19:39:14] [Server thread/INFO]: aaronxas[/127.26.92.15:39453] logged in with entity id 13 at (-1689.4074482864642, 105.0, -1580.884903200234)
+[19:39:14] [Server thread/INFO]: aaronxas joined the game
+[19:42:37] [Server thread/INFO]: aaronxas has made the advancement [Not Today, Thank You]
