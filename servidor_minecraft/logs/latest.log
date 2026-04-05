@@ -1,0 +1,132 @@
+[05Apr2026 17:07:07.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05Apr2026 17:07:07.800] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[05Apr2026 17:07:07.967] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Apr2026 17:07:08.060] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/La-Realeza/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Apr2026 17:07:08.449] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/La-Realeza/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[05Apr2026 17:07:08.451] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/La-Realeza/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Apr2026 17:07:08.458] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/La-Realeza/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Apr2026 17:07:08.461] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/La-Realeza/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Apr2026 17:07:08.596] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[05Apr2026 17:07:11.305] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[05Apr2026 17:07:22.998] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[05Apr2026 17:07:23.001] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[05Apr2026 17:07:24.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Apr2026 17:07:24.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[05Apr2026 17:07:26.514] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Apr2026 17:07:27.615] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/La-Realeza/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[05Apr2026 17:07:27.615] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/La-Realeza/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[05Apr2026 17:07:30.363] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[05Apr2026 17:07:30.606] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[05Apr2026 17:07:31.321] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Apr2026 17:07:31.323] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Apr2026 17:07:31.323] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Apr2026 17:07:31.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Apr2026 17:07:31.707] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Apr2026 17:07:31.800] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Apr2026 17:07:32.205] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Apr2026 17:07:32.210] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Apr2026 17:07:32.213] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Apr2026 17:07:32.214] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Apr2026 17:07:32.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Apr2026 17:07:39.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Apr2026 17:07:46.168] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.170] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.173] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.178] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.194] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.214] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.230] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:46.514] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:47.014] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:47.514] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Apr2026 17:07:48.014] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[05Apr2026 17:07:48.662] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9149 ms
+[05Apr2026 17:07:48.664] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.399s)! For help, type "help"
+[05Apr2026 17:07:48.738] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Apr2026 17:08:04.556] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iBryanEa[/127.83.18.170:40219] logged in with entity id 57 at (23.5, 72.0, -65.5)
+[05Apr2026 17:08:04.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa joined the game
+[05Apr2026 17:08:29.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made iBryanEa a server operator
+[05Apr2026 17:09:59.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Stone Age]
+[05Apr2026 17:11:35.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Getting an Upgrade]
+[05Apr2026 17:13:02.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: aaronxas[/127.26.92.15:54897] logged in with entity id 948 at (31.5, 70.0, -70.5)
+[05Apr2026 17:13:02.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas joined the game
+[05Apr2026 17:13:50.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas drowned
+[05Apr2026 17:15:03.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa was shot by Skeleton
+[05Apr2026 17:16:54.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Created new objective [Vida]]
+[05Apr2026 17:17:03.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set display slot list to show objective Vida]
+[05Apr2026 17:18:17.013] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
+[05Apr2026 17:18:37.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5316ms or 106 ticks behind
+[05Apr2026 17:18:59.321] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7030ms or 140 ticks behind
+[05Apr2026 17:19:02.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Sweet Dreams]
+[05Apr2026 17:19:07.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Sweet Dreams]
+[05Apr2026 17:19:20.835] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6545ms or 130 ticks behind
+[05Apr2026 17:19:38.189] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2399ms or 47 ticks behind
+[05Apr2026 17:21:27.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Acquire Hardware]
+[05Apr2026 17:21:39.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Acquire Hardware]
+[05Apr2026 17:21:51.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Isn't It Iron Pick]
+[05Apr2026 17:22:23.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [A Seedy Place]
+[05Apr2026 17:23:15.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Stone Age]
+[05Apr2026 17:23:38.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported iBryanEa to aaronxas]
+[05Apr2026 17:26:33.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported aaronxas to iBryanEa]
+[05Apr2026 17:27:03.446] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iBryanEa lost connection: Disconnected
+[05Apr2026 17:27:03.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa left the game
+[05Apr2026 17:27:04.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Monster Hunter]
+[05Apr2026 17:27:13.744] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: aaronxas lost connection: Disconnected
+[05Apr2026 17:27:13.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas left the game
+[05Apr2026 17:30:03.308] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: aaronxas[/127.26.92.15:38915] logged in with entity id 4851 at (51.69999998807907, 16.0, -97.69999998807907)
+[05Apr2026 17:30:03.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas joined the game
+[05Apr2026 17:30:06.755] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iBryanEa[/127.83.18.170:34949] logged in with entity id 4901 at (68.69999998807907, 45.0, -102.24993598361178)
+[05Apr2026 17:30:06.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa joined the game
+[05Apr2026 17:33:00.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Diamonds!]
+[05Apr2026 17:34:14.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Gave 1 [Acacia Planks] to iBryanEa]
+[05Apr2026 17:34:24.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Gave 2 [Acacia Planks] to iBryanEa]
+[05Apr2026 17:34:30.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Isn't It Iron Pick]
+[05Apr2026 17:46:45.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Light as a Rabbit]
+[05Apr2026 17:46:55.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Light as a Rabbit]
+[05Apr2026 17:47:11.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set spawn point to 1134, 113, -61 [0.0] in minecraft:overworld for iBryanEa]
+[05Apr2026 17:49:52.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa has made the advancement [Monster Hunter]
+[05Apr2026 17:51:55.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas fell from a high place
+[05Apr2026 17:52:35.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported aaronxas to iBryanEa]
+[05Apr2026 17:53:07.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported iBryanEa to aaronxas]
+[05Apr2026 17:54:03.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <aaronxas> [x:1227, y:62, z:-123, dim:minecraft:overworld]
+[05Apr2026 17:54:11.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported iBryanEa to 1227.500000, 62.000000, -122.500000]
+[05Apr2026 17:54:19.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set own game mode to Spectator Mode]
+[05Apr2026 17:54:36.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported aaronxas to iBryanEa]
+[05Apr2026 17:54:55.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set own game mode to Survival Mode]
+[05Apr2026 17:55:05.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set own game mode to Spectator Mode]
+[05Apr2026 17:56:04.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas has made the advancement [Suit Up]
+[05Apr2026 17:56:04.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set own game mode to Survival Mode]
+[05Apr2026 17:56:06.652] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1234, y=-34, z=-128} BlockPos{x=1233, y=-36, z=-127}
+[05Apr2026 17:56:10.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set own game mode to Spectator Mode]
+[05Apr2026 17:56:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Set own game mode to Survival Mode]
+[05Apr2026 17:56:37.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa fell from a high place
+[05Apr2026 17:56:47.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported aaronxas to iBryanEa]
+[05Apr2026 17:56:59.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported iBryanEa to 1227.500000, -38.000000, -122.500000]
+[05Apr2026 17:57:01.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported aaronxas to iBryanEa]
+[05Apr2026 17:58:20.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Gamerule keepInventory is now set to: true]
+[05Apr2026 17:58:39.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Gave 64 [Acacia Planks] to iBryanEa]
+[05Apr2026 17:59:06.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa hit the ground too hard whilst trying to escape aaronxas
+[05Apr2026 17:59:25.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported iBryanEa to 1227.500000, 62.000000, -122.500000]
+[05Apr2026 17:59:29.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iBryanEa: Teleported iBryanEa to 1227.500000, -38.000000, -122.500000]
+[05Apr2026 17:59:42.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: aaronxas lost connection: Disconnected
+[05Apr2026 17:59:42.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aaronxas left the game
+[05Apr2026 17:59:44.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iBryanEa lost connection: Disconnected
+[05Apr2026 17:59:44.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iBryanEa left the game
+[05Apr2026 17:59:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[05Apr2026 17:59:48.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Apr2026 17:59:48.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Apr2026 17:59:48.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Apr2026 17:59:50.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05Apr2026 17:59:50.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05Apr2026 17:59:50.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05Apr2026 17:59:51.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05Apr2026 17:59:51.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Apr2026 17:59:51.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Apr2026 17:59:51.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
